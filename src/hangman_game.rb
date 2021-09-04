@@ -28,7 +28,6 @@ class HangmanGame
       if have_lives? && !won?
         get_response
 
-
       elsif won?
         puts "#{@game_word}"
         puts "You are victorious human. For now..."
